@@ -1,0 +1,11 @@
+USER: What are the main types of neural networks?
+
+SYSTEM RESPONSE:
+- Neural networks are computational models inspired by the human brain.
+- Common types include CNNs, RNNs, and Transformers.
+
+Agents involved:
+- ResearchAgent
+
+Memory:
+- New knowledge stored successfully.

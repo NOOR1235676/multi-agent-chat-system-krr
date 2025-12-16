@@ -1,0 +1,18 @@
+USER:
+Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+
+SYSTEM RESPONSE:
+- Transformers use self-attention mechanisms instead of recurrence.
+- They are highly parallelizable, enabling faster training.
+- Trade-off: High memory and computational cost due to attention over long sequences.
+
+Agents involved:
+- ResearchAgent (information retrieval)
+- AnalysisAgent (reasoning and comparison)
+
+Coordinator decisions:
+- Classified query as complex
+- Executed Research → Analysis pipeline
+
+Memory:
+- Analysis summary stored for future reuse.
